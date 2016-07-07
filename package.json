@@ -1,0 +1,40 @@
+{
+  "name": "simple-spawn",
+  "version": "1.0.0",
+  "description": "Spawns a NodeJS child process and cleans it up automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-type/simple-spawn.git"
+  },
+  "keywords": [
+    "spawn",
+    "child-process",
+    "child_process",
+    "process",
+    "child"
+  ],
+  "author": "Grant Forrest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-type/simple-spawn/issues"
+  },
+  "homepage": "https://github.com/a-type/simple-spawn#readme",
+  "ava": {
+    "files": [
+      "tests/**/*_test.js"
+    ],
+    "require": [
+      "babel-register"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-register": "^6.9.0",
+    "is-running": "^2.0.0",
+    "sleep": "^3.0.1"
+  }
+}
